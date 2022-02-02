@@ -12,4 +12,8 @@ public class CalculatorTest {
         assertTrue(c.add(5, 5) == 10);
     }
 
+    @Test
+    void subtractTest() {
+        assertTrue(c.subtract(10, 5) == 5);
+    }
 }
