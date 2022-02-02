@@ -21,4 +21,9 @@ public class CalculatorTest {
     void divideTest() {
         assertTrue(c.divide(10, 2) == 5);
     }
+
+    @Test
+    void multiplyTest() {
+        assertTrue(c.multiply(5, 2) == 10);
+    }
 }
