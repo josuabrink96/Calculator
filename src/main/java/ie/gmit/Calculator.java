@@ -2,11 +2,8 @@ package ie.gmit;
 
 public class Calculator {
     //this method will add two numbers
-    public void add(int firstNum, int secondNum) {
-
+    public int add(int firstNum, int secondNum) {
+        return firstNum + secondNum;
     }
-
-    public static void main(String[] args) {
-
-    }
+    
 }
