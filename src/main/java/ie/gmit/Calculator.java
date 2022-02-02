@@ -9,4 +9,12 @@ public class Calculator {
     public int subtract(int firstNum, int secondNum) {
         return firstNum - secondNum;
     }
+
+    public double divide(int firstNum, int secondNum) {
+        return firstNum / secondNum;
+    }
+
+    public static void main(String[] args) {
+
+    }
 }
