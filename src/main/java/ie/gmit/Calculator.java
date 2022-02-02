@@ -10,8 +10,12 @@ public class Calculator {
         return firstNum - secondNum;
     }
 
-    public double divide(int firstNum, int secondNum) {
+    public int divide(int firstNum, int secondNum) {
         return firstNum / secondNum;
+    }
+
+    public int multiply(int firstNum, int secondNum) {
+        return firstNum * secondNum;
     }
 
     public static void main(String[] args) {
